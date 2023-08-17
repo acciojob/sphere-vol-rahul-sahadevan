@@ -7,7 +7,7 @@ function volume_sphere() {
 
     // Update the volume input field with the calculated volume
     var volumeInput = document.getElementById('volume');
-    volumeInput.value = volume.toFixed(2);
+    volumeInput.value = volume.toFixed(4);
 	
 } 
 
